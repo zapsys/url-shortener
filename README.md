@@ -11,13 +11,15 @@ O URL Shortener é uma aplicação web para encurtamento de urls e nomes de arqu
 - [Flask](https://flask.palletsprojects.com)
 - [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
-## Bibliotecas e dependências (dependências não inclusas com o Flask)
-- [jQuery Slim](https://jquery.com)
-- [popper.js](https://popper.js.org)
-- pipenv
-- pytest
+## Bibliotecas e dependências
+- Front-end:
+    - [jQuery Slim](https://jquery.com)
+    - [popper.js](https://popper.js.org)
+- Back-end:
+    - pipenv
+    - pytest
 
-*para mais detalhes sobre versões consulte o arquivo Pipfile.lock após instalação do pipenv* 
+*para mais detalhes sobre versões consulte o arquivo Pipfile.lock após rodar **$pipenv shell*** 
 
 ## Pré-requisitos para instalação
 - Python (versão 3.10 ou superior)
