@@ -17,7 +17,7 @@ O URL Shortener é uma aplicação web para encurtamento de urls e nomes de arqu
 - pipenv
 - pytest
 
-*para mais detalhes sobre versões consulte o arquivo Pipfile.lock* 
+*para mais detalhes sobre versões consulte o arquivo Pipfile.lock após instalação do pipenv* 
 
 ## Pré-requisitos para instalação
 - Python (versão 3.10 ou superior)
@@ -66,7 +66,11 @@ Pronto agora é possível acessar a aplicação no browser pelo endereço http:/
 - As configurações de teste são salvas no arquivo [*conftest.py*](conftest.py). Esse arquivo será buscado pelo **pytest** durante a sua execução.
 - Foi criado um arquivo de teste principal, o [*test_main.py*](test_main.py). Nele foi criada uma função para buscar um texto específico na aplicação, contudo, outras funções podem ser criadas, bem como outros arquivos de teste.
 
-Para executar os testes acesse a pasta raiz (url-shortener) e rode:
+Para executar os testes acesse a pasta raiz (url-shortener) e instale o **pytest**:
+```
+$ pipenv install pytest
+```
+Rode o pytest:
 ```
 $ pytest
 ```
