@@ -20,7 +20,7 @@ O URL Shortener é uma aplicação web para encurtamento de urls e nomes de arqu
     - pipenv
     - pytest
 
-Para mais detalhes sobre dependências do Flask consulte o arquivo Pipfile.lock após rodar **$pipenv shell** 
+Para mais detalhes sobre dependências do Flask consulte o arquivo Pipfile.lock após rodar *$ pipenv shell* 
 
 ## Pré-requisitos para instalação
 - Python (versão 3.10 ou superior)
@@ -82,7 +82,7 @@ $ pytest
 Caso tenha alguma dúvida ou sugestão sinta-se a vontade para nos contactar e contribuir.
 
 ## Licença
-Esse projeto foi construído seguindo os passos do instrutor do Linkedin [Nick Walter](https://linkedin.com/in/nick-walter), então os direitos de produção do código fonto original se devem a ele.
+Esse projeto foi construído seguindo os passos do instrutor do Linkedin [Nick Walter](https://linkedin.com/in/nick-walter), então os direitos de produção do código fonte original se devem a ele.
 
 Mas eu deixo esse projeto sob a licença MIT, que permite o download, execução, alteração, redistribuição, tanto para uso privado como comercial do código fonte, desde que citado o autor. 
 
