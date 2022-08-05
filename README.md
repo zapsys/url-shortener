@@ -15,11 +15,12 @@ O URL Shortener é uma aplicação web para encurtamento de urls e nomes de arqu
 - Front-end:
     - [jQuery Slim](https://jquery.com)
     - [popper.js](https://popper.js.org)
+
 - Back-end:
     - pipenv
     - pytest
 
-*para mais detalhes sobre versões consulte o arquivo Pipfile.lock após rodar **$pipenv shell*** 
+Para mais detalhes sobre dependências do Flask consulte o arquivo Pipfile.lock após rodar **$pipenv shell** 
 
 ## Pré-requisitos para instalação
 - Python (versão 3.10 ou superior)
