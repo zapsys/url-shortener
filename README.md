@@ -60,7 +60,9 @@ Rode a aplicação:
 ```
 $ flask run
 ```
-Pronto agora é possível acessar a aplicação no browser pelo endereço http://127.0.0.1:5000 
+Pronto agora é possível acessar a aplicação no browser pelo endereço http://127.0.0.1:5000
+
+*Nota: Para usar a opção de carregar arquivos é necessário alterar o caminho onde os mesmos serão salvos na função **def your_url():**. Altere **your-project-path** pelo caminho até onde pasta do url-shortener se encontra.* 
 
 ## E voilá
 ![URL SHORTENER](url-shortener.png)
